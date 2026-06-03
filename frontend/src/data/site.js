@@ -74,6 +74,7 @@ export const portfolioItems = [
       "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=900&q=80",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
+    draft: true,
   },
   {
     id: "gig-07",
@@ -85,6 +86,7 @@ export const portfolioItems = [
       "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?auto=format&fit=crop&w=1400&q=80",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
+    draft: true,
   },
 ];
 
