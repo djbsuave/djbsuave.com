@@ -24,12 +24,12 @@ export const portfolioItems = [
   },
   {
     id: "gig-02",
-    title: "Club Night",
-    venue: "Pulse Lounge",
+    title: "Wedding Reception",
+    venue: "Irvine, CA",
     year: "2024",
     span: "",
     poster:
-      "https://images.unsplash.com/photo-1571266028243-d220bc7d6e0e?auto=format&fit=crop&w=900&q=80",
+      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/d36b6rkt_dj%20wedding%20set%20up.jpg",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
   },
