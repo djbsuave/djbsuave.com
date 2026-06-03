@@ -115,7 +115,7 @@ export default function Contact() {
             className="inline-flex items-center gap-2 hover:text-[#FFB000] transition-colors"
           >
             <Instagram size={18} />
-            @djbsuave
+            @b_suavee
           </a>
           <span className="text-zinc-700">·</span>
           <span>Available worldwide · Based for travel</span>

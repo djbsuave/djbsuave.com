@@ -160,10 +160,11 @@ export const services = [
 ];
 
 export const contactInfo = {
-  whatsapp: "+15555550100",
-  whatsappDisplay: "+1 (555) 555-0100",
-  phone: "+15555550100",
-  phoneDisplay: "+1 (555) 555-0100",
-  email: "bookings@djbsuave.com",
-  instagram: "https://instagram.com/djbsuave",
+  whatsapp: "+17147289655",
+  whatsappDisplay: "+1 (714) 728-9655",
+  phone: "+17147289655",
+  phoneDisplay: "(714) 728-9655",
+  email: "b.suave92@gmail.com",
+  instagram: "https://instagram.com/b_suavee",
+  instagramHandle: "@b_suavee",
 };

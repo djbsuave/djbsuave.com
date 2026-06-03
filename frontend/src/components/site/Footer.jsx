@@ -33,7 +33,7 @@ export default function Footer() {
               data-testid="footer-instagram"
               className="inline-flex items-center gap-1.5 text-zinc-400 hover:text-[#FFB000] transition-colors"
             >
-              <Instagram size={16} /> @djbsuave
+              <Instagram size={16} /> @b_suavee
             </a>
           </div>
         </div>

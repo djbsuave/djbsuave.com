@@ -90,7 +90,7 @@ export default function Hero() {
         >
           {[
             { k: "21+", v: "Years on the decks" },
-            { k: "500+", v: "Events played" },
+            { k: "2,500+", v: "Events played" },
             { k: "12+", v: "Genres blended" },
           ].map((s) => (
             <div key={s.k} className="border-l border-white/15 pl-4">
