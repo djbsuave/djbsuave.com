@@ -46,12 +46,12 @@ export const portfolioItems = [
   },
   {
     id: "gig-04",
-    title: "Rooftop Party",
-    venue: "Sky Terrace",
-    year: "2024",
+    title: "Private Event",
+    venue: "Orange, CA",
+    year: "2023",
     span: "md:col-span-2",
     poster:
-      "https://images.unsplash.com/photo-1574391884720-bbc049ec09ad?auto=format&fit=crop&w=1400&q=80",
+      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/e2h2jhg0_djing%20with%20adidas%20sign.png",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
   },
