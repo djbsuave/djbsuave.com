@@ -13,12 +13,12 @@ const HIGHLIGHTS_URL =
 export const portfolioItems = [
   {
     id: "gig-01",
-    title: "Wedding Reception",
-    venue: "The Grand Ballroom",
-    year: "2024",
+    title: "Opening for Wu-Tang Clan",
+    venue: "La Santa · Santa Ana",
+    year: "2025",
     span: "md:col-span-2 md:row-span-2",
     poster:
-      "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1200&q=80",
+      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/30uulql9_la%20santa%20dj%20gig.png",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
   },
