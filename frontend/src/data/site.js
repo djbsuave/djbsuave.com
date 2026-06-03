@@ -35,12 +35,12 @@ export const portfolioItems = [
   },
   {
     id: "gig-03",
-    title: "Corporate Gala",
-    venue: "Hilton Downtown",
-    year: "2023",
+    title: "Opening for The Pharcyde",
+    venue: "La Santa · Santa Ana",
+    year: "2024",
     span: "",
     poster:
-      "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=900&q=80",
+      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/be9bqsuc_djing%20at%20la%20santa%20with%20sign.png",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
   },
