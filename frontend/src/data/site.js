@@ -1,7 +1,14 @@
-// Centralised portfolio data. Replace the `embedUrl` values with real Instagram
-// reel/post embed URLs (use the format: https://www.instagram.com/reel/{ID}/embed
-// or https://www.instagram.com/p/{ID}/embed). The poster image and meta are used
-// as a stylised preview while embeds load (or when an embed is unavailable).
+// Centralised portfolio data. Each card opens `highlightsUrl` in a new tab when
+// clicked. Instagram does not allow Stories / Highlights to play inline on
+// external sites (Meta restriction) — clicking through to Instagram is the
+// supported, professional way to showcase them.
+//
+// If you later post the same clips as individual reels, drop the reel URL into
+// `embedUrl` (format: https://www.instagram.com/reel/{ID}/embed) and that card
+// will play inline instead.
+
+const HIGHLIGHTS_URL =
+  "https://www.instagram.com/stories/highlights/17938570219657584/";
 
 export const portfolioItems = [
   {
@@ -13,6 +20,7 @@ export const portfolioItems = [
     poster:
       "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1200&q=80",
     embedUrl: "",
+    highlightsUrl: HIGHLIGHTS_URL,
   },
   {
     id: "gig-02",
@@ -23,6 +31,7 @@ export const portfolioItems = [
     poster:
       "https://images.unsplash.com/photo-1571266028243-d220bc7d6e0e?auto=format&fit=crop&w=900&q=80",
     embedUrl: "",
+    highlightsUrl: HIGHLIGHTS_URL,
   },
   {
     id: "gig-03",
@@ -33,6 +42,7 @@ export const portfolioItems = [
     poster:
       "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=900&q=80",
     embedUrl: "",
+    highlightsUrl: HIGHLIGHTS_URL,
   },
   {
     id: "gig-04",
@@ -43,6 +53,7 @@ export const portfolioItems = [
     poster:
       "https://images.unsplash.com/photo-1574391884720-bbc049ec09ad?auto=format&fit=crop&w=1400&q=80",
     embedUrl: "",
+    highlightsUrl: HIGHLIGHTS_URL,
   },
   {
     id: "gig-05",
@@ -53,6 +64,7 @@ export const portfolioItems = [
     poster:
       "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80",
     embedUrl: "",
+    highlightsUrl: HIGHLIGHTS_URL,
   },
   {
     id: "gig-06",
@@ -63,6 +75,7 @@ export const portfolioItems = [
     poster:
       "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=900&q=80",
     embedUrl: "",
+    highlightsUrl: HIGHLIGHTS_URL,
   },
   {
     id: "gig-07",
@@ -73,6 +86,7 @@ export const portfolioItems = [
     poster:
       "https://images.unsplash.com/photo-1493676304819-0d7a8d026dcf?auto=format&fit=crop&w=1400&q=80",
     embedUrl: "",
+    highlightsUrl: HIGHLIGHTS_URL,
   },
 ];
 
