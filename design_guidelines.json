@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "brand_name": "DJ B-Suave",
+    "tagline": "21 years of genre bending mashup originality",
+    "app_type": "portfolio / marketing site",
+    "vibe": "Dark & moody nightclub, luxury cinematic with neon accents, no purple gradients."
+  },
+  "theme": {
+    "archetype": "Archetype 5 (Luxury) blended with high-contrast nightclub energy.",
+    "base": "Dark",
+    "rationale": "Cinematic, moody, and expensive. Needs to feel like stepping into a premium club at 1am, relying on texture, noise, and sharp lighting accents rather than flat generic dark colors."
+  },
+  "colors": {
+    "background": "#050505",
+    "surface": "#0A0A0A",
+    "primary_accent": "#FF2A4D",
+    "secondary_accent": "#FFB000",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1AA",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "glass": "rgba(10, 10, 10, 0.6)",
+    "rules": [
+      "No pure black (#000000). Use #050505 or #0A0A0A.",
+      "No purple or teal.",
+      "Use #FF2A4D (Crimson Neon) and #FFB000 (Amber) sparingly for buttons, hover states, and glowing accents.",
+      "Backgrounds must use CSS noise/grain overlay for a textured, tactile nightclub feel."
+    ]
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Cabinet Grotesk, sans-serif",
+      "weights": ["800", "900"],
+      "tracking": "tracking-tighter",
+      "transform": "uppercase",
+      "notes": "Large, high-impact, event-poster energy."
+    },
+    "body": {
+      "font_family": "Outfit, sans-serif",
+      "weights": ["300", "400"],
+      "tracking": "tracking-normal",
+      "notes": "Clean, highly legible modern sans."
+    },
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight",
+      "h3": "text-xl sm:text-2xl font-bold uppercase",
+      "body": "text-base sm:text-lg text-zinc-400 font-light leading-relaxed",
+      "overline": "text-xs tracking-[0.2em] uppercase text-zinc-500 font-bold"
+    }
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Generous spacing. p-8, p-12, p-24, py-32 for section padding.",
+    "grid_strategy": "Tetris Bento Grid for portfolio and services. Asymmetric layouts with breathing room.",
+    "alignment": "Optical alignment. Left-align dense text and headings. Center-align only for massive hero statements.",
+    "container": "Max-width containers (max-w-7xl) with mx-auto and px-6 md:px-12."
+  },
+  "surfaces_and_textures": {
+    "glassmorphism": "Used for sticky header. bg-black/60, backdrop-blur-2xl, border-b border-white/10.",
+    "cards": "Dark mode Neumorphism or Grid Borders. Flat surface (#0A0A0A), 1px solid border (border-white/10), no heavy shadows. Add subtle inner glow for premium feel.",
+    "texture": "Apply a subtle SVG noise/grain background fixed to the body to kill the digital flatness."
+  },
+  "motion_and_interactions": {
+    "hover_states": "Text colors must explicitly change (e.g., hover:text-white). Cards lift slightly (-translate-y-1) and borders glow with accent color.",
+    "buttons": "Primary CTA must have high contrast (e.g., bg-[#FF2A4D] text-white). Hover brightens background.",
+    "transitions": "Use specific transition properties (transition-colors, transition-transform) with 0.3s ease-out."
+  },
+  "sections_and_components": {
+    "header": {
+      "style": "Sticky at top, z-50, Glassmorphism. Logo left, Links center, CTA right.",
+      "links": "About, Services, Portfolio, Testimonials. Hover:text-white transition-colors."
+    },
+    "hero": {
+      "layout": "Full screen (min-h-screen). Background image with heavy gradient overlay (bg-gradient-to-t from-[#050505] via-black/50 to-transparent) so image breathes but text is readable.",
+      "content": "Overline: 'Mobile DJ & Mashup Artist'. H1: 'DJ B-SUAVE'. Subtitle: '21 years of genre bending mashup originality'. Primary CTA: 'Book Now'.",
+      "image": "https://images.unsplash.com/photo-1584352604394-c2c6f06e00c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwyfHxuaWdodGNsdWIlMjBkaiUyMHBlcmZvcm1pbmclMjBkYXJrfGVufDB8fHx8MTc4MDUyMjM4M3ww&ixlib=rb-4.1.0&q=85"
+    },
+    "about": {
+      "layout": "2-column asymmetric grid. Left: Text heavy, story-driven. Right: Mood image.",
+      "image": "https://images.unsplash.com/photo-1545128485-c400e7702796?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBkaiUyMHBlcmZvcm1pbmclMjBkYXJrfGVufDB8fHx8MTc4MDUyMjM4M3ww&ixlib=rb-4.1.0&q=85"
+    },
+    "services": {
+      "layout": "Grid of cards (Weddings, Clubs, Corporate, Private Parties). Use Phosphor icons or Lucide icons. Minimalist cards with 1px border."
+    },
+    "portfolio": {
+      "description": "The centerpiece. A Tetris Bento grid showing Instagram embedded videos/reels. Emphasize asymmetric layout. Use dark placeholders or actual iframes for IG embeds.",
+      "style": "Cards with no padding for media, sharp edges or subtle 4px border-radius."
+    },
+    "testimonials": {
+      "layout": "Marquee or Carousel of text cards. Minimalist quote design. Large serif quotation marks for contrast."
+    },
+    "contact": {
+      "layout": "No form. High-impact typography. 3 massive buttons: WhatsApp, Phone, Email. Use explicit icons.",
+      "background_image": "https://images.unsplash.com/photo-1630395822970-acd6a691d97e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwbW9vZHklMjBuaWdodGNsdWIlMjBjcm93ZCUyMGxhc2VyfGVufDB8fHx8MTc4MDUyMjM4M3ww&ixlib=rb-4.1.0&q=85",
+      "overlay": "bg-black/80 backdrop-blur-sm"
+    },
+    "footer": {
+      "layout": "Massive typography 'DJ B-SUAVE' (text-[10vw]). py-20. Darker than base if possible."
+    }
+  },
+  "media_assets": {
+    "hero_bg": "https://images.unsplash.com/photo-1584352604394-c2c6f06e00c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwyfHxuaWdodGNsdWIlMjBkaiUyMHBlcmZvcm1pbmclMjBkYXJrfGVufDB8fHx8MTc4MDUyMjM4M3ww&ixlib=rb-4.1.0&q=85",
+    "about_image": "https://images.unsplash.com/photo-1545128485-c400e7702796?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBkaiUyMHBlcmZvcm1pbmclMjBkYXJrfGVufDB8fHx8MTc4MDUyMjM4M3ww&ixlib=rb-4.1.0&q=85",
+    "contact_bg": "https://images.unsplash.com/photo-1630395822970-acd6a691d97e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwbW9vZHklMjBuaWdodGNsdWIlMjBjcm93ZCUyMGxhc2VyfGVufDB8fHx8MTc4MDUyMjM4M3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "testing": {
+    "attributes": "All interactive elements MUST include a data-testid attribute in kebab-case (e.g. data-testid='hero-book-button', data-testid='contact-whatsapp-button')."
+  },
+  "instructions_to_main_agent": [
+    "Build the website as a single-page scrolling portfolio using React, Tailwind CSS, and Framer Motion.",
+    "Do NOT use pure black (#000000). Use #050505 or #0A0A0A for backgrounds.",
+    "Do NOT use generic purple or teal gradients.",
+    "Embed Instagram reels for the portfolio section using HTML iframe embeds or mocked stylized cards if real embeds are not provided.",
+    "Ensure the hero image has a proper gradient overlay to maintain text readability (WCAG AA standard).",
+    "Implement a CSS noise/grain texture overlay across the entire site to give a tactile, cinematic nightclub feel.",
+    "Use Lucide icons for Contact buttons (WhatsApp, Phone, Mail).",
+    "Ensure all interactive elements have data-testid attributes."
+  ]
+}
