@@ -56,12 +56,11 @@ export const portfolioItems = [
   },
   {
     id: "gig-05",
-    title: "Birthday Bash",
-    venue: "Private Estate",
-    year: "2023",
+    title: "Pablito's Tacos Grand Opening",
+    venue: "Los Angeles, CA",
+    year: "2026",
     span: "",
-    poster:
-      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80",
+    poster: "/portfolio/pablitos-tacos-la.jpg",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
   },
