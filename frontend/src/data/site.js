@@ -50,8 +50,7 @@ export const portfolioItems = [
     venue: "Orange, CA",
     year: "2023",
     span: "md:col-span-2",
-    poster:
-      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/e2h2jhg0_djing%20with%20adidas%20sign.png",
+    poster: "/portfolio/orange-private-event.jpg",
     embedUrl: "",
     highlightsUrl: HIGHLIGHTS_URL,
   },
