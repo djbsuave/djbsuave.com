@@ -34,7 +34,7 @@ export default function Header() {
           data-testid="header-logo"
           className="font-display text-xl md:text-2xl uppercase tracking-tighter text-white"
         >
-          DJ&nbsp;<span className="text-[#FF2A4D]">B-Suave</span>
+          DJ&nbsp;<span className="text-[#FF2D95]">B-Suave</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-10">
@@ -53,7 +53,7 @@ export default function Header() {
         <a
           href="#contact"
           data-testid="header-book-button"
-          className="hidden md:inline-flex items-center gap-2 bg-[#FF2A4D] hover:bg-[#ff4060] text-white text-sm font-bold uppercase tracking-[0.18em] px-5 py-2.5 rounded-full transition-colors"
+          className="hidden md:inline-flex items-center gap-2 bg-[#FF2D95] hover:bg-[#ff52a8] text-white text-sm font-bold uppercase tracking-[0.18em] px-5 py-2.5 rounded-full transition-colors"
         >
           Book Now
         </a>
@@ -90,7 +90,7 @@ export default function Header() {
               href="#contact"
               onClick={() => setOpen(false)}
               data-testid="mobile-book-button"
-              className="mt-2 inline-flex justify-center items-center bg-[#FF2A4D] hover:bg-[#ff4060] text-white text-sm font-bold uppercase tracking-[0.18em] px-5 py-3 rounded-full transition-colors"
+              className="mt-2 inline-flex justify-center items-center bg-[#FF2D95] hover:bg-[#ff52a8] text-white text-sm font-bold uppercase tracking-[0.18em] px-5 py-3 rounded-full transition-colors"
             >
               Book Now
             </a>

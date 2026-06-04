@@ -13,8 +13,8 @@ export default function Testimonials() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 mb-14">
         <div className="flex items-center gap-3 mb-6">
-          <span className="h-px w-10 bg-[#FF2A4D]" />
-          <span className="text-xs uppercase tracking-[0.3em] text-[#FF2A4D] font-bold">
+          <span className="h-px w-10 bg-[#FF2D95]" />
+          <span className="text-xs uppercase tracking-[0.3em] text-[#FF2D95] font-bold">
             Testimonials
           </span>
         </div>
@@ -35,11 +35,11 @@ export default function Testimonials() {
             <article
               key={`${t.id}-${i}`}
               data-testid={`testimonial-${t.id}`}
-              className="w-[340px] md:w-[420px] shrink-0 bg-[#050505] border border-white/10 p-8 hover:border-[#FF2A4D]/60 transition-colors"
+              className="w-[340px] md:w-[420px] shrink-0 bg-[#050505] border border-white/10 p-8 hover:border-[#FF2D95]/60 transition-colors"
             >
               <Quote
                 size={32}
-                className="text-[#FF2A4D]"
+                className="text-[#FF2D95]"
                 strokeWidth={1.5}
               />
               <p className="mt-5 text-base md:text-lg text-zinc-200 font-light leading-relaxed">

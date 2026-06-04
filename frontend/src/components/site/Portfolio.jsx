@@ -28,9 +28,9 @@ function PortfolioCard({ item }) {
 
       {/* Center play / view */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <span className="relative inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-[#FF2A4D]/90 group-hover:bg-[#FF2A4D] transition-colors">
+        <span className="relative inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-[#FF2D95]/90 group-hover:bg-[#FF2D95] transition-colors">
           <Play size={26} className="fill-white text-white translate-x-0.5" />
-          <span className="absolute inset-0 rounded-full bg-[#FF2A4D]/40 animate-ping group-hover:animate-none" />
+          <span className="absolute inset-0 rounded-full bg-[#FF2D95]/40 animate-ping group-hover:animate-none" />
         </span>
       </div>
 
@@ -117,8 +117,8 @@ export default function Portfolio() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-10 bg-[#FFB000]" />
-              <span className="text-xs uppercase tracking-[0.3em] text-[#FFB000] font-bold">
+              <span className="h-px w-10 bg-[#00E5FF]" />
+              <span className="text-xs uppercase tracking-[0.3em] text-[#00E5FF] font-bold">
                 Portfolio
               </span>
             </div>
@@ -128,7 +128,7 @@ export default function Portfolio() {
             >
               Receipts from
               <br />
-              <span className="text-[#FF2A4D]">the dance floor.</span>
+              <span className="text-[#FF2D95]">the dance floor.</span>
             </h2>
           </div>
           <a
@@ -136,7 +136,7 @@ export default function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
             data-testid="portfolio-instagram-link"
-            className="inline-flex items-center gap-2 text-sm uppercase tracking-[0.2em] font-bold text-white hover:text-[#FFB000] transition-colors"
+            className="inline-flex items-center gap-2 text-sm uppercase tracking-[0.2em] font-bold text-white hover:text-[#00E5FF] transition-colors"
           >
             <Instagram size={18} />
             More on Instagram

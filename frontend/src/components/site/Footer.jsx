@@ -31,7 +31,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               data-testid="footer-instagram"
-              className="inline-flex items-center gap-1.5 text-zinc-400 hover:text-[#FFB000] transition-colors"
+              className="inline-flex items-center gap-1.5 text-zinc-400 hover:text-[#00E5FF] transition-colors"
             >
               <Instagram size={16} /> @b_suavee
             </a>
@@ -44,7 +44,7 @@ export default function Footer() {
           className="font-display uppercase tracking-tighter leading-none text-white/95"
           style={{ fontSize: "clamp(3rem, 18vw, 16rem)" }}
         >
-          B-<span className="text-[#FF2A4D]">Suave</span>
+          B-<span className="text-[#FF2D95]">Suave</span>
         </div>
 
         <div className="mt-10 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between gap-3 text-xs uppercase tracking-[0.2em] text-zinc-600">

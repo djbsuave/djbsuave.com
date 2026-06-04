@@ -19,8 +19,8 @@ export default function About() {
           className="md:col-span-7"
         >
           <div className="flex items-center gap-3 mb-6">
-            <span className="h-px w-10 bg-[#FFB000]" />
-            <span className="text-xs uppercase tracking-[0.3em] text-[#FFB000] font-bold">
+            <span className="h-px w-10 bg-[#00E5FF]" />
+            <span className="text-xs uppercase tracking-[0.3em] text-[#00E5FF] font-bold">
               About
             </span>
           </div>
@@ -30,7 +30,7 @@ export default function About() {
           >
             Two decades of
             <br />
-            <span className="text-[#FF2A4D]">reading rooms</span>
+            <span className="text-[#FF2D95]">reading rooms</span>
             <br />
             & rewriting setlists.
           </h2>
@@ -66,7 +66,7 @@ export default function About() {
             ].map((tag) => (
               <div
                 key={tag}
-                className="border border-white/10 px-4 py-3 text-xs uppercase tracking-[0.15em] text-zinc-300 hover:border-[#FF2A4D] hover:text-white transition-colors"
+                className="border border-white/10 px-4 py-3 text-xs uppercase tracking-[0.15em] text-zinc-300 hover:border-[#FF2D95] hover:text-white transition-colors"
               >
                 {tag}
               </div>
@@ -89,7 +89,7 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
-              <div className="text-xs uppercase tracking-[0.25em] text-[#FFB000]">
+              <div className="text-xs uppercase tracking-[0.25em] text-[#00E5FF]">
                 Est. 2003
               </div>
               <div className="font-display text-2xl uppercase mt-2 text-white">

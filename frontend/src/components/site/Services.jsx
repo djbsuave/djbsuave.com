@@ -15,8 +15,8 @@ export default function Services() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-px w-10 bg-[#FF2A4D]" />
-              <span className="text-xs uppercase tracking-[0.3em] text-[#FF2A4D] font-bold">
+              <span className="h-px w-10 bg-[#FF2D95]" />
+              <span className="text-xs uppercase tracking-[0.3em] text-[#FF2D95] font-bold">
                 Services
               </span>
             </div>
@@ -51,7 +51,7 @@ export default function Services() {
                 <div className="flex items-center justify-between mb-10">
                   <Icon
                     size={32}
-                    className="text-[#FF2A4D] group-hover:scale-110 transition-transform"
+                    className="text-[#FF2D95] group-hover:scale-110 transition-transform"
                     strokeWidth={1.5}
                   />
                   <span className="text-xs text-zinc-600 font-mono">
@@ -64,7 +64,7 @@ export default function Services() {
                 <p className="mt-4 text-sm md:text-base text-zinc-400 font-light leading-relaxed">
                   {s.description}
                 </p>
-                <div className="mt-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-zinc-500 group-hover:text-[#FFB000] transition-colors">
+                <div className="mt-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-zinc-500 group-hover:text-[#00E5FF] transition-colors">
                   <span>Enquire</span>
                   <span>→</span>
                 </div>

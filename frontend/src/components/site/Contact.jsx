@@ -17,7 +17,7 @@ export default function Contact() {
       href: waLink,
       icon: MessageCircle,
       external: true,
-      accent: "#FF2A4D",
+      accent: "#FF2D95",
     },
     {
       id: "phone",
@@ -26,7 +26,7 @@ export default function Contact() {
       href: telLink,
       icon: Phone,
       external: false,
-      accent: "#FFB000",
+      accent: "#00E5FF",
     },
     {
       id: "email",
@@ -53,8 +53,8 @@ export default function Contact() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-center gap-3 mb-6">
-          <span className="h-px w-10 bg-[#FF2A4D]" />
-          <span className="text-xs uppercase tracking-[0.3em] text-[#FF2A4D] font-bold">
+          <span className="h-px w-10 bg-[#FF2D95]" />
+          <span className="text-xs uppercase tracking-[0.3em] text-[#FF2D95] font-bold">
             Contact
           </span>
         </div>
@@ -64,7 +64,7 @@ export default function Contact() {
         >
           Let's build
           <br />
-          <span className="text-[#FF2A4D]">your night.</span>
+          <span className="text-[#FF2D95]">your night.</span>
         </h2>
         <p className="mt-6 max-w-xl text-lg text-zinc-300 font-light">
           Dates fill fast — especially weekends. Send a message with your date,
@@ -112,7 +112,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             data-testid="contact-instagram-link"
-            className="inline-flex items-center gap-2 hover:text-[#FFB000] transition-colors"
+            className="inline-flex items-center gap-2 hover:text-[#00E5FF] transition-colors"
           >
             <Instagram size={18} />
             @b_suavee
