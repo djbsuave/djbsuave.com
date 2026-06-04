@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-12 gap-8 items-end mb-16">
           <div className="md:col-span-7">
             <div className="text-xs capitalize tracking-[0.3em] text-zinc-500 mb-3">
-              Mobile DJ · Mashup Artist
+              Mobile DJ · Mashup Artist · Sound Engineer
             </div>
             <div className="text-zinc-300 text-base max-w-md font-light leading-relaxed">
               21 years of genre-bending mashup originality. Booking now for

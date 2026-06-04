@@ -29,7 +29,7 @@ export default function Hero() {
         >
           <span className="h-px w-12 bg-[#FF2D95]" />
           <span className="text-xs capitalize tracking-[0.3em] text-zinc-300 font-bold">
-            Mobile DJ · Mashup Artist
+            Mobile DJ · Mashup Artist · Sound Engineer
           </span>
         </motion.div>
 
