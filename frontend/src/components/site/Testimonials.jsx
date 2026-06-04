@@ -14,13 +14,13 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 mb-14">
         <div className="flex items-center gap-3 mb-6">
           <span className="h-px w-10 bg-[#FF2D95]" />
-          <span className="text-xs uppercase tracking-[0.3em] text-[#FF2D95] font-bold">
+          <span className="text-xs lowercase tracking-[0.3em] text-[#FF2D95] font-bold">
             Testimonials
           </span>
         </div>
         <h2
           data-testid="testimonials-heading"
-          className="font-display text-4xl md:text-5xl lg:text-6xl uppercase tracking-tighter text-white leading-[0.95] max-w-3xl"
+          className="font-display text-4xl md:text-5xl lg:text-6xl lowercase tracking-tighter text-white leading-[0.95] max-w-3xl"
         >
           What the rooms
           <br />
@@ -49,7 +49,7 @@ export default function Testimonials() {
                 <div className="text-sm font-semibold text-white">
                   {t.author}
                 </div>
-                <div className="text-xs uppercase tracking-[0.2em] text-zinc-500 mt-1">
+                <div className="text-xs lowercase tracking-[0.2em] text-zinc-500 mt-1">
                   {t.event}
                 </div>
               </div>

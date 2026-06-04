@@ -51,9 +51,9 @@ code {
 
 /* Typography helpers */
 .font-display {
-    font-family: "Cabinet Grotesk", "Outfit", sans-serif;
-    font-weight: 900;
-    letter-spacing: -0.02em;
+    font-family: "Sora", "Outfit", sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.04em;
 }
 
 .font-body {

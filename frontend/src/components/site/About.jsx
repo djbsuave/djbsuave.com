@@ -20,13 +20,13 @@ export default function About() {
         >
           <div className="flex items-center gap-3 mb-6">
             <span className="h-px w-10 bg-[#00E5FF]" />
-            <span className="text-xs uppercase tracking-[0.3em] text-[#00E5FF] font-bold">
+            <span className="text-xs lowercase tracking-[0.3em] text-[#00E5FF] font-bold">
               About
             </span>
           </div>
           <h2
             data-testid="about-heading"
-            className="font-display text-4xl md:text-5xl lg:text-6xl uppercase tracking-tighter text-white leading-[0.95]"
+            className="font-display text-4xl md:text-5xl lg:text-6xl lowercase tracking-tighter text-white leading-[0.95]"
           >
             Two decades of
             <br />
@@ -66,7 +66,7 @@ export default function About() {
             ].map((tag) => (
               <div
                 key={tag}
-                className="border border-white/10 px-4 py-3 text-xs uppercase tracking-[0.15em] text-zinc-300 hover:border-[#FF2D95] hover:text-white transition-colors"
+                className="border border-white/10 px-4 py-3 text-xs lowercase tracking-[0.15em] text-zinc-300 hover:border-[#FF2D95] hover:text-white transition-colors"
               >
                 {tag}
               </div>
@@ -89,10 +89,10 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
-              <div className="text-xs uppercase tracking-[0.25em] text-[#00E5FF]">
+              <div className="text-xs lowercase tracking-[0.25em] text-[#00E5FF]">
                 Est. 2003
               </div>
-              <div className="font-display text-2xl uppercase mt-2 text-white">
+              <div className="font-display text-2xl lowercase mt-2 text-white">
                 Built behind the decks
               </div>
             </div>

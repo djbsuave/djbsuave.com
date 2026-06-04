@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 pt-20 pb-10">
         <div className="grid md:grid-cols-12 gap-8 items-end mb-16">
           <div className="md:col-span-7">
-            <div className="text-xs uppercase tracking-[0.3em] text-zinc-500 mb-3">
+            <div className="text-xs lowercase tracking-[0.3em] text-zinc-500 mb-3">
               Mobile DJ · Mashup Artist
             </div>
             <div className="text-zinc-300 text-base max-w-md font-light leading-relaxed">
@@ -41,13 +41,13 @@ export default function Footer() {
         {/* Massive wordmark */}
         <div
           aria-hidden
-          className="font-display uppercase tracking-tighter leading-none text-white/95"
+          className="font-display lowercase tracking-tighter leading-none text-white/95"
           style={{ fontSize: "clamp(3rem, 18vw, 16rem)" }}
         >
           B-<span className="text-[#FF2D95]">Suave</span>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between gap-3 text-xs uppercase tracking-[0.2em] text-zinc-600">
+        <div className="mt-10 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between gap-3 text-xs lowercase tracking-[0.2em] text-zinc-600">
           <div>© {new Date().getFullYear()} DJ B-Suave · All rights reserved</div>
           <div>Designed in the dark · Built for the dance floor</div>
         </div>

@@ -16,13 +16,13 @@ export default function Services() {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <span className="h-px w-10 bg-[#FF2D95]" />
-              <span className="text-xs uppercase tracking-[0.3em] text-[#FF2D95] font-bold">
+              <span className="text-xs lowercase tracking-[0.3em] text-[#FF2D95] font-bold">
                 Services
               </span>
             </div>
             <h2
               data-testid="services-heading"
-              className="font-display text-4xl md:text-5xl lg:text-6xl uppercase tracking-tighter text-white leading-[0.95] max-w-2xl"
+              className="font-display text-4xl md:text-5xl lg:text-6xl lowercase tracking-tighter text-white leading-[0.95] max-w-2xl"
             >
               Any room. Any crowd.
               <br />
@@ -58,13 +58,13 @@ export default function Services() {
                     0{i + 1}
                   </span>
                 </div>
-                <h3 className="font-display text-2xl uppercase tracking-tight text-white">
+                <h3 className="font-display text-2xl lowercase tracking-tight text-white">
                   {s.title}
                 </h3>
                 <p className="mt-4 text-sm md:text-base text-zinc-400 font-light leading-relaxed">
                   {s.description}
                 </p>
-                <div className="mt-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-zinc-500 group-hover:text-[#00E5FF] transition-colors">
+                <div className="mt-8 inline-flex items-center gap-2 text-xs lowercase tracking-[0.2em] text-zinc-500 group-hover:text-[#00E5FF] transition-colors">
                   <span>Enquire</span>
                   <span>→</span>
                 </div>

@@ -28,7 +28,7 @@ export default function Hero() {
           className="flex items-center gap-3 mb-8"
         >
           <span className="h-px w-12 bg-[#FF2D95]" />
-          <span className="text-xs uppercase tracking-[0.3em] text-zinc-300 font-bold">
+          <span className="text-xs lowercase tracking-[0.3em] text-zinc-300 font-bold">
             Mobile DJ · Mashup Artist
           </span>
         </motion.div>
@@ -38,7 +38,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
           data-testid="hero-title"
-          className="font-display text-[14vw] md:text-[10vw] lg:text-[8.5vw] leading-[0.85] uppercase tracking-tighter text-white"
+          className="font-display text-[14vw] md:text-[10vw] lg:text-[8.5vw] leading-[0.85] lowercase tracking-tighter text-white"
         >
           DJ B-<span className="text-[#FF2D95]">Suave</span>
         </motion.h1>
@@ -63,7 +63,7 @@ export default function Hero() {
           <a
             href="#contact"
             data-testid="hero-book-button"
-            className="group inline-flex items-center gap-3 bg-[#FF2D95] hover:bg-[#ff52a8] text-white px-7 py-4 rounded-full text-sm font-bold uppercase tracking-[0.2em] transition-colors"
+            className="group inline-flex items-center gap-3 bg-[#FF2D95] hover:bg-[#ff52a8] text-white px-7 py-4 rounded-full text-sm font-bold lowercase tracking-[0.2em] transition-colors"
           >
             Book the Night
             <ArrowDownRight
@@ -74,7 +74,7 @@ export default function Hero() {
           <a
             href="#portfolio"
             data-testid="hero-portfolio-button"
-            className="group inline-flex items-center gap-3 border border-white/20 hover:border-white text-white px-7 py-4 rounded-full text-sm font-bold uppercase tracking-[0.2em] transition-colors"
+            className="group inline-flex items-center gap-3 border border-white/20 hover:border-white text-white px-7 py-4 rounded-full text-sm font-bold lowercase tracking-[0.2em] transition-colors"
           >
             <Play size={16} className="fill-white" />
             Watch Reels
@@ -97,7 +97,7 @@ export default function Hero() {
               <div className="font-display text-3xl md:text-4xl text-white">
                 {s.k}
               </div>
-              <div className="text-xs uppercase tracking-[0.15em] text-zinc-400 mt-1">
+              <div className="text-xs lowercase tracking-[0.15em] text-zinc-400 mt-1">
                 {s.v}
               </div>
             </div>

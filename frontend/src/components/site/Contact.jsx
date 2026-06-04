@@ -54,13 +54,13 @@ export default function Contact() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-center gap-3 mb-6">
           <span className="h-px w-10 bg-[#FF2D95]" />
-          <span className="text-xs uppercase tracking-[0.3em] text-[#FF2D95] font-bold">
+          <span className="text-xs lowercase tracking-[0.3em] text-[#FF2D95] font-bold">
             Contact
           </span>
         </div>
         <h2
           data-testid="contact-heading"
-          className="font-display text-5xl md:text-6xl lg:text-8xl uppercase tracking-tighter text-white leading-[0.9] max-w-4xl"
+          className="font-display text-5xl md:text-6xl lg:text-8xl lowercase tracking-tighter text-white leading-[0.9] max-w-4xl"
         >
           Let's build
           <br />
@@ -89,12 +89,12 @@ export default function Contact() {
                     style={{ color: b.accent }}
                     strokeWidth={1.5}
                   />
-                  <span className="text-xs uppercase tracking-[0.25em] text-zinc-500 group-hover:text-white transition-colors">
+                  <span className="text-xs lowercase tracking-[0.25em] text-zinc-500 group-hover:text-white transition-colors">
                     Open →
                   </span>
                 </div>
                 <div className="mt-12">
-                  <div className="font-display text-3xl md:text-4xl uppercase tracking-tight text-white">
+                  <div className="font-display text-3xl md:text-4xl lowercase tracking-tight text-white">
                     {b.label}
                   </div>
                   <div className="mt-2 text-sm text-zinc-400 break-all">
