@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowDownRight, Play } from "lucide-react";
 
 const heroBg =
-  "https://images.unsplash.com/photo-1584352604394-c2c6f06e00c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwyfHxuaWdodGNsdWIlMjBkaiUyMHBlcmZvcm1pbmclMjBkYXJrfGVufDB8fHx8MTc4MDUyMjM4M3ww&ixlib=rb-4.1.0&q=85";
+  "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/wkmxtfc1_djing%20at%20lava.jpg";
 
 export default function Hero() {
   return (
@@ -13,11 +13,11 @@ export default function Hero() {
     >
       {/* Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-[center_25%] md:bg-[center_30%]"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/70 to-[#050505]/30" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/80 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/40 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/85 via-[#050505]/30 to-transparent" />
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pb-20 pt-32 md:pt-40">
