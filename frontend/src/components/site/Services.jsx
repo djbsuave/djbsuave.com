@@ -39,14 +39,15 @@ export default function Services() {
           {services.map((s, i) => {
             const Icon = iconMap[s.icon];
             return (
-              <motion.div
+              <motion.a
                 key={s.id}
+                href="#contact"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 data-testid={`service-card-${s.id}`}
-                className="group bg-[#0a0a0a] p-8 md:p-10 hover:bg-[#0f0f0f] transition-colors relative"
+                className="group bg-[#0a0a0a] p-8 md:p-10 hover:bg-[#0f0f0f] transition-colors relative cursor-pointer"
               >
                 <div className="flex items-center justify-between mb-10">
                   <Icon
@@ -68,7 +69,7 @@ export default function Services() {
                   <span>Enquire</span>
                   <span>→</span>
                 </div>
-              </motion.div>
+              </motion.a>
             );
           })}
         </div>
