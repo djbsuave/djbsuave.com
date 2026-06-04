@@ -32,7 +32,7 @@ export default function Header() {
         <a
           href="#top"
           data-testid="header-logo"
-          className="font-display text-xl md:text-2xl lowercase tracking-tighter text-white"
+          className="font-display text-xl md:text-2xl capitalize tracking-tighter text-white"
         >
           DJ&nbsp;<span className="text-[#FF2D95]">B-Suave</span>
         </a>
@@ -43,7 +43,7 @@ export default function Header() {
               key={l.href}
               href={l.href}
               data-testid={`nav-link-${l.label.toLowerCase()}`}
-              className="text-sm lowercase tracking-[0.18em] font-medium text-zinc-400 hover:text-white transition-colors"
+              className="text-sm capitalize tracking-[0.18em] font-medium text-zinc-400 hover:text-white transition-colors"
             >
               {l.label}
             </a>
@@ -53,7 +53,7 @@ export default function Header() {
         <a
           href="#contact"
           data-testid="header-book-button"
-          className="hidden md:inline-flex items-center gap-2 bg-[#FF2D95] hover:bg-[#ff52a8] text-white text-sm font-bold lowercase tracking-[0.18em] px-5 py-2.5 rounded-full transition-colors"
+          className="hidden md:inline-flex items-center gap-2 bg-[#FF2D95] hover:bg-[#ff52a8] text-white text-sm font-bold capitalize tracking-[0.18em] px-5 py-2.5 rounded-full transition-colors"
         >
           Book Now
         </a>
@@ -81,7 +81,7 @@ export default function Header() {
                 href={l.href}
                 onClick={() => setOpen(false)}
                 data-testid={`mobile-nav-${l.label.toLowerCase()}`}
-                className="text-base lowercase tracking-[0.18em] font-medium text-zinc-300 hover:text-white"
+                className="text-base capitalize tracking-[0.18em] font-medium text-zinc-300 hover:text-white"
               >
                 {l.label}
               </a>
@@ -90,7 +90,7 @@ export default function Header() {
               href="#contact"
               onClick={() => setOpen(false)}
               data-testid="mobile-book-button"
-              className="mt-2 inline-flex justify-center items-center bg-[#FF2D95] hover:bg-[#ff52a8] text-white text-sm font-bold lowercase tracking-[0.18em] px-5 py-3 rounded-full transition-colors"
+              className="mt-2 inline-flex justify-center items-center bg-[#FF2D95] hover:bg-[#ff52a8] text-white text-sm font-bold capitalize tracking-[0.18em] px-5 py-3 rounded-full transition-colors"
             >
               Book Now
             </a>

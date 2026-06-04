@@ -20,7 +20,7 @@ function PortfolioCard({ item }) {
 
       {/* Top meta */}
       <div className="absolute top-4 left-4 right-4 flex items-start justify-between">
-        <span className="text-[10px] lowercase tracking-[0.25em] text-white/80 bg-black/40 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/15">
+        <span className="text-[10px] capitalize tracking-[0.25em] text-white/80 bg-black/40 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/15">
           {item.year}
         </span>
         <Instagram size={18} className="text-white/70" />
@@ -37,15 +37,15 @@ function PortfolioCard({ item }) {
       {/* Bottom meta */}
       <div className="absolute bottom-0 left-0 right-0 p-5 flex items-end justify-between gap-3">
         <div>
-          <h3 className="font-display text-xl md:text-2xl lowercase tracking-tight text-white">
+          <h3 className="font-display text-xl md:text-2xl capitalize tracking-tight text-white">
             {item.title}
           </h3>
-          <div className="mt-1 text-xs lowercase tracking-[0.2em] text-zinc-400">
+          <div className="mt-1 text-xs capitalize tracking-[0.2em] text-zinc-400">
             {item.venue}
           </div>
         </div>
         {hasHighlight && !hasEmbed && (
-          <div className="text-[10px] lowercase tracking-[0.2em] text-white/70 flex items-center gap-1.5 pb-1">
+          <div className="text-[10px] capitalize tracking-[0.2em] text-white/70 flex items-center gap-1.5 pb-1">
             View <ExternalLink size={11} />
           </div>
         )}
@@ -118,13 +118,13 @@ export default function Portfolio() {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <span className="h-px w-10 bg-[#00E5FF]" />
-              <span className="text-xs lowercase tracking-[0.3em] text-[#00E5FF] font-bold">
+              <span className="text-xs capitalize tracking-[0.3em] text-[#00E5FF] font-bold">
                 Portfolio
               </span>
             </div>
             <h2
               data-testid="portfolio-heading"
-              className="font-display text-4xl md:text-5xl lg:text-6xl lowercase tracking-tighter text-white leading-[0.95]"
+              className="font-display text-4xl md:text-5xl lg:text-6xl capitalize tracking-tighter text-white leading-[0.95]"
             >
               Receipts from
               <br />
@@ -136,7 +136,7 @@ export default function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
             data-testid="portfolio-instagram-link"
-            className="inline-flex items-center gap-2 text-sm lowercase tracking-[0.2em] font-bold text-white hover:text-[#00E5FF] transition-colors"
+            className="inline-flex items-center gap-2 text-sm capitalize tracking-[0.2em] font-bold text-white hover:text-[#00E5FF] transition-colors"
           >
             <Instagram size={18} />
             More on Instagram
@@ -152,7 +152,7 @@ export default function Portfolio() {
             ))}
         </div>
 
-        <p className="mt-10 text-xs lowercase tracking-[0.2em] text-zinc-600 text-center">
+        <p className="mt-10 text-xs capitalize tracking-[0.2em] text-zinc-600 text-center">
           Tap any clip to watch on Instagram · Live gig highlights
         </p>
       </div>
