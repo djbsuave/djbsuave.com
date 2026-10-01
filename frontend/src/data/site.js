@@ -90,6 +90,37 @@ export const portfolioItems = [
   },
 ];
 
+// Live Sets — full video mixes / gig clips (MP4).
+// Add items with { id, title, meta, src (MP4 URL), poster (image URL) }.
+// If src is empty string, the card shows a "Coming Soon" state and the play
+// button is disabled. Section auto-hides if this array is empty.
+export const videoItems = [
+  {
+    id: "v1",
+    title: "Live Mix — Coming Soon",
+    meta: "Full set",
+    src: "",
+    poster:
+      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/wkmxtfc1_djing%20at%20lava.jpg",
+  },
+  {
+    id: "v2",
+    title: "Wu-Tang Warm-Up",
+    meta: "La Santa · Santa Ana · 2025",
+    src: "",
+    poster:
+      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/be9bqsuc_djing%20at%20la%20santa%20with%20sign.png",
+  },
+  {
+    id: "v3",
+    title: "Wedding Ballroom",
+    meta: "Irvine, CA · 2024",
+    src: "",
+    poster:
+      "https://customer-assets.emergentagent.com/job_dj-gigs-1/artifacts/d36b6rkt_dj%20wedding%20set%20up.jpg",
+  },
+];
+
 export const testimonials = [
   {
     id: "t1",
